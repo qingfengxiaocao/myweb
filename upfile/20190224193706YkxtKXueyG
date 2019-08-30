@@ -1,0 +1,9 @@
+#!/bin/bash
+yum install socat
+yum install docker
+systemctl start docker
+docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 2375:2375 bobrik/socat TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock
+chmod +x /etc/rc.d/rc.local
+echo "systemctl start docker" >> /etc/rc.d/rc.local
+echo "docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p 2375:2375 bobrik/socat TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock" >> /etc/rc.d/rc.local
+rm -f install.sh

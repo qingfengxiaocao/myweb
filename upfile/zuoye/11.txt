@@ -1,0 +1,38 @@
+<div class="msg-wrap-gw" style="margin-top: -90px;">
+            <div class="wrap-user-gw global-clear-spacing">
+                                <span class="user-time-gw">2016年11月10日 14:25</span>
+                <span node-type="nickname" class="user-name-gw"><a href="javascript:void(0)">续笔记</a></span><!-- 管理员、铭牌图标 -->
+<span class="user-level-gw user-1-4-gw user-2-gw">
+    <i>冒泡</i>
+</span><!-- 管理员、铭牌图标 END -->
+                                
+                <span class="user-address-gw">[<i>浙江省杭州市</i>网友]</span>
+                            </div>
+            
+            
+            <div class="wrap-issue-gw">
+                <p class="issue-wrap-gw"><span class="wrap-word-gw">快点支持https 都什么年代了？</span></p>
+                <div class="cy-see-more">
+                    <span></span><i></i>
+                </div>
+            </div>
+            <!-- 图片展示 -->
+            
+            <div node-type="btns-bar" class="clear-g wrap-action-gw">
+                <div node-type="action-click-gw" class="action-click-gw global-clear-spacing">
+                    <i class="gap-gw"></i>
+                    <span node-type="report" class="click-report-gw"><a href="javascript:void(0)"><i class="icon-gw icon-flag"></i><em>举报</em></a></span><i class="gap-gw"></i><span node-type="reply" class="click-reply-gw"><a href="javascript:void(0)">回复</a></span>
+                    <i class="gap-gw"></i>
+                    <span node-type="support" class="click-ding-gw">
+                        <a href="javascript:;"><i class="icon-gw icon-ding-bg"></i><em class="icon-name-bg">14</em></a>
+                    </span>
+                    
+                    <i class="gap-gw"></i>
+                    <span node-type="oppose" class="click-cai-gw">
+                        <a href="javascript:;"><i class="icon-gw icon-cai-bg"></i><em class="icon-name-bg">5</em></a>
+                    </span>
+                    
+                <i class="gap-gw"></i><span node-type="prop" class="click-prop-gw"><span class="prop-span"><a href="javascript:void(0)"></a></span></span></div>
+                
+            </div>
+                    </div>

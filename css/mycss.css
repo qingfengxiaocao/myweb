@@ -1,0 +1,21 @@
+.mydiv{
+	magin:auto;
+	background: rgb(76,76,76);
+}
+.myli{
+	float: left;
+    width: 66px;
+    height: 29px;
+    text-align: center;
+    color: #4398ed;
+    font-size: 16px;
+    border-bottom: 1px solid #4398ed;
+    font-family: "Microsoft Yahei";
+    line-height: 30px;
+    background: url(../img/biankuang.png) no-repeat;
+    position: relative;
+    bottom: -1px;
+    clear: none;
+    display: list-item;
+    list-style: none;
+}
