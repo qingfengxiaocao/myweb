@@ -35,6 +35,9 @@
     		exit;
     	}
 		
+		$jifen="update user set jifenyue=jifenyue+2 where email='$yonghuemail'";
+		mysqli_query($coon, $jifen);
+		
 		$yonghusql = "select yonghuemail from renwu where id='$renwuid'";
 		$yonghur = mysqli_query($coon, $yonghusql);
     	$yonghuobj = mysqli_fetch_object($yonghur);

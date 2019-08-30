@@ -87,9 +87,9 @@ JiebaAnalyse::init();
 								exit;
 							}
 							
-							
-				
-							
+							$update="update user set jifenyue=jifenyue+2 where email='$yonghuemail'";
+		                    mysqli_query($coon, $update);
+											
 							$sql = "insert into renwu(yonghuemail,zhuti,neirong,tag,fangxiangming,chuangjianshijian,jiezhishijian,fujian,fujianming) 
 									values('$yonghuemail','$zhuti','$neirong','$tag','$fangxiang','$chuangjianshijian','$jiezhishijian','$fujian','$name')";
 							mysqli_query($coon, $sql);
